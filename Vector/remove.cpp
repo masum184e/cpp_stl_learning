@@ -16,10 +16,18 @@ int main(){
     sized_vector.erase(sized_vector.begin()+5);
     // it decrement the size & remove the value from specified index
 
+    // REMOVING ELEMENTS WITH RANGE
+    sized_vector.erase(sized_vector.begin()+5, sized_vector.begin()+10)
+    // it decrement the size & remove the value from reference
+
     // REMOVING ALL ELEENTS
     sized_vector.clear();
     // it set the size 0
     // but it doesn't remove the value from reference
+
+    // REMOVE SPECIFIC ELEMENT
+    sized_vector.erase(remove(sized_vector.begin(), sized_vector.end(), 456), sized_vector.end());
+    // it decrement the size & remove the value from reference
 
     return 0;
 }
