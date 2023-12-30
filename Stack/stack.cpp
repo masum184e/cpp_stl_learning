@@ -20,15 +20,15 @@ int main(){
         decStack.pop();
     }
 
-    // COMPARISON
-    bool status=swapedStack===decStack;
-    // return true if each of the element of both stack are equal
-
     // RANDOM FUNCTIONS
     decStack.top(); // return top element of the stack
     decStack.size(); // return size of the stack, return type size_t
     decStack.empty(); // return true if stack is empty
     stack<int> swapedStack;swapedStack.swap(decStack); // swap element with each other
+
+    // COMPARISON
+    bool status=swapedStack==decStack;
+    // return true if each of the element of both stack are equal
     
     return 0;
 }
