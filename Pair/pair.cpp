@@ -22,6 +22,7 @@ int main(){
     constructorPair.swap(initPair);
 
     // COMPARISON
+    bool status=initPair==makePair;
     // EQUAL: both first & second elements are equal
     // NOT EQUAL: any of the corresponding are not equal
     // INEQUALITY: inequality depends on the first element, if first element is equal, it depends on the second element
