@@ -21,5 +21,11 @@ int main(){
     // it can't change size
     // if your target index is greater than the size, it make no effect
 
+    // ADD VECTOR WITH VECTOR - ADDING A RANGE OF ELEMENT IN VECTOR - VECTOR MERGING
+    vector<int> new_vector={0, 1, 2, 3, 4};
+    sized_vector.insert(sized_vector.end(), new_vector.begin(), new_vector.end());
+    // this will change the parent vector size
+    // you can use .begin() method to add it in the front
+
     return 0;
 }
