@@ -29,5 +29,11 @@ int main(){
     sized_vector.erase(remove(sized_vector.begin(), sized_vector.end(), 456), sized_vector.end());
     // it decrement the size & remove the value from reference
 
+    // REMOVE
+    // It does not actually remove elements from the container.
+    // It rearranges the elements so that all occurrences of a specified value are moved to the end of the container.
+    // It returns an iterator pointing to the new logical end of the container after the removal process.
+    // The elements at the end of the container, which are duplicates or the elements to be removed, are not valid and can be removed using the erase function.
+
     return 0;
 }
