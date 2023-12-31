@@ -4,6 +4,7 @@ int main(){
 
     // DECLARATION
     map<int, string>decMap;
+    // key of map is unchangeable, value can be
 
     // INITIALIZATION
     map<int, string>initMap={
@@ -42,6 +43,10 @@ int main(){
 
     // ERASE
     initMap.erase(2);// erase method accept key, and remove that key and corresponding value
+
+    // FREQUENCY
+    vector<int>arr;map<int,int>freq;
+    for(int i=0;i<arr.size();i++)freq[arr[i]]++;
 
     return 0;
 }
