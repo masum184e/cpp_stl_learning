@@ -13,6 +13,9 @@ int main(){
   // vector<int> initial_value_vector;
   // initial_value_vector.assign({ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 });
 
+  // CONSTRUCTOR
+  vector<int>constructorVec { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
   // SIZED VECTOR
   vector<int> sized_vector(10);
   // default value of all item is 0
