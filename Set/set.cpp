@@ -1,3 +1,4 @@
+// USED TO STORE SEQUENTIAL & UNIQUE DATA
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
