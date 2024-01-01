@@ -5,6 +5,7 @@ int main(){
 
     // DECLARATION
     set<int> decSet;
+    set<int greater<int>> dessSet; // descending set
 
     // INITIALIZATION
     set<int> initSet={3,1,4,1,5,9,2,6,5};
