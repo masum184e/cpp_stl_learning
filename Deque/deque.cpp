@@ -12,5 +12,8 @@ int main(){
     initDeq.push_back(11); // add element at the end
     initDeq.push_front(-1); // add element at the front
 
+    // ACCESSING
+    for(auto i:initDeq)cout<<i<<" ";
+
     return 0;
 }
