@@ -21,6 +21,12 @@ int main(){
     // ACCESSING
     for(auto i:initSet)cout<<i<<" ";
 
+    // INDEXING
+    int index=5;
+    auto it = initSet.begin();
+    advance(it, index - 1);
+    int indexedValue=*it;
+
     // SEARCHING
     (initSet.find(5)!=initSet.end())?cout<<"Found"<<endl:cout<<"Not Found"<<endl;
 
