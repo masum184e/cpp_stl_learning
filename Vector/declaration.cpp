@@ -28,7 +28,7 @@ int main(){
   // push_back operation insert after size
   // THIS IS AS SAME AS THE GIVEN SCRIPT BELOW
   // vector<int> empty_vector;
-  // empty_vector.assign(10, 456);
+  // empty_vector.assign(10, 456); // RESIZE THE VECTOR WITH SIZE 10 AND ASSIGN ALL THE VALUE OF EACH INDEX 456
 
   return 0;
 }
